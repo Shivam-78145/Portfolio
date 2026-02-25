@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+<!-- CSS File -->
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-container">
+    <div class="logo">Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- THEME TOGGLE BUTTON -->
+<button class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Shivam Kumar</h1>
+        <h3>Software Engineer | Web developer</h3>
+        
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/image.jpg" alt="Your Name" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="projects" id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <a href="https://library01.free.nf/">Library Management</a>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="skills" id="skills">
+  <div class="container">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">PHP</div>
+      <div class="skill-box">MySQL</div>
+      <div class="skill-box">MongoDB</div>
+      <div class="skill-box">Python</div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Email: shivam7k7@gmail.com</p>
+    <!-- <p>LinkedIn: linkedin.com/in/yourname</p> -->
+
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Your Name. All rights reserved.
+</footer>
+
+<!-- JS File -->
+<script src="script.js"></script>
+
+</body>
+</html>
